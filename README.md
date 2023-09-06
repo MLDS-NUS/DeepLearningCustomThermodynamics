@@ -30,9 +30,9 @@ Description of the data contents
 ## System Requirements
 
 The code was tested on
-- Ubuntu version **XYZ**
-- Python version 3.**XYZ**
-- Tensorflow version 1.**XYZ**
+- Ubuntu version 20.04
+- Python version 3.8
+- Tensorflow version 2.9.1 with tensorflow.compat.v1 as tf and tf.disable_v2_behavior()
 - CUDA version **XYZ**
 
 ## Installation Instructions
