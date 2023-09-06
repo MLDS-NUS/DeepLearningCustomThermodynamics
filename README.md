@@ -55,7 +55,7 @@ pip install -r requirements.txt
 ```
 
 ## Code
-Before running the codes, ensure all the datasets are downloaded from https://doi.org/10.7910/DVN/NRIX7Y and save them into the `./data` directory.
+Before running the codes, download the relevant - `Simulation` or `Experimental` datasets from https://doi.org/10.7910/DVN/NRIX7Y and save them into the `./data` directory.
 
 ### Quick Demo
 
