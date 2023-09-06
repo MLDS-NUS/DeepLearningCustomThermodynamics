@@ -3,13 +3,13 @@ Code for reviewers of https://arxiv.org/abs/2308.04119
 
 Datasets available in the Harvard Dataverse public repository https://doi.org/10.7910/DVN/NRIX7Y:
 
-config_train_mean_every.pkl: high dimensional training data
+config_train_mean_every.pkl: high-dimensional training dataset (split into 6 parts, can be combined using software such as 7-zip)
 
-config_test_mean_every.pkl: high-dimensional test data
+config_test_mean_every.pkl: high-dimensional test dataset
 
-ex_train800.pkl: training extension data
+ex_train800.pkl: chain extension data for training dataset
 
-ex_test800.pkl: test extension data
+ex_test800.pkl: chain extension data for test dataset
 
 
 Codes:
