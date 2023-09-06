@@ -41,7 +41,7 @@ The code was tested on
 
 Create a virtual environment
 ```bash
-virtualenv ~/.venvs/<env_name> -p 3.**XYZ**
+virtualenv -p python3 ~/.venvs/<env_name>
 ```
 
 Activate the environment
