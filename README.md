@@ -2,7 +2,6 @@
 
 Code for reviewers of manuscript "Constructing Custom Thermodynamics Using Deep Learning".
 
-<<<<<<< HEAD
 *Note: This repository contains code to reproduce the construction of thermodynamic coordinates and training the stochastic OnsagerNet as presented in the paper. Note that this project was started during Tensorflow 1.XX's maintainence timeframe but we are in the process of migrating it into an updated implementation in Tensorflow 2.XX. The current implementation is for review purposes only, and we will release the more user-friendly Tensorflow 2 version (currently work in progress) for easy adaptation to general problems upon publication.*
 
 ## Datasets
@@ -15,15 +14,6 @@ Description of the data contents
 - `config_test_mean_every.pkl`: high-dimensional test data, consisting of **XYZ** trajectories of polymer chains configurations (300 x 3 coordinates) over **XYZ** time steps
 - `ex_train800.pkl`: **Add description**
 - `ex_test800.pkl`: **Add description**
-=======
-config_train_mean_every.pkl: high-dimensional training dataset (split into 6 parts, can be combined using software such as 7-zip)
-
-config_test_mean_every.pkl: high-dimensional test dataset
-
-ex_train800.pkl: chain extension data for training dataset
-
-ex_test800.pkl: chain extension data for test dataset
->>>>>>> d7d096276469e282374faf689bc344b7c1c2f97c
 
 ## System Requirements
 
