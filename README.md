@@ -53,6 +53,12 @@ Install required python packages
 ```bash
 pip install -r requirements.txt
 ```
+## Data
+### Simulation data
+Download all data files from the `Simulation/` folder in https://doi.org/10.7910/DVN/NRIX7Y and save them into the `./data` directory.
+
+### Experimental data
+Download data files `**XYZ**` from https://doi.org/10.7910/DVN/NRIX7Y and save them into the `./data/experiments` directory.
 
 ## Code
 
@@ -77,8 +83,6 @@ The full reproduction code for the training of Stochastic OnsagerNet is provided
 #### Training
 
 *(Typical run time: **XYZ**)*
-
-Download data files `**XYZ**` from https://doi.org/10.7910/DVN/NRIX7Y and save them into the `./data` directory.
 
 Train the model by running the Jupyter notebook `/reproduction/OnsagerNet.ipynb`
 
