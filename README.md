@@ -10,10 +10,18 @@ Datasets are available in the Harvard Dataverse public repository
 https://doi.org/10.7910/DVN/NRIX7Y
 
 Description of the data contents
-- `config_train_mean_every.pkl`: high dimensional training data, consisting of **XYZ** trajectories of polymer chains configurations (300 x 3 coordinates) over **XYZ** time steps
-- `config_test_mean_every.pkl`: high-dimensional test data, consisting of **XYZ** trajectories of polymer chains configurations (300 x 3 coordinates) over **XYZ** time steps
-- `ex_train800.pkl`: **Add description**
-- `ex_test800.pkl`: **Add description**
+### Simulation Data
+- `config_train_mean_every.pkl`: high- dimensional training data, consisting of **XYZ** trajectories of polymer chains configurations (300 x 3 coordinates) over **XYZ** time steps
+- `config_test_mean_every.pkl`: high-dimensional test data, consisting of 110 trajectories of polymer chains configurations (300 x 3 coordinates) over 1001 time steps
+- `ex_train.pkl`: chain extension (Z1) for training data
+- `ex_test.pkl`: chain extension (Z1) for test data
+- `DNA_data_resnet.pkl`: low-dimensional training and test data (3-dimensional)
+
+### Experimental Data
+- `Dumbbell.tif`: raw experimental video images for molecule that takes on dumbbell configuration
+- `Dumbbell.png`: processed experimental video images for molecule that takes on dumbbell configuration
+- `Folded.tif`: raw experimental video images for molecule that takes on folded configuration
+- `Folded.png`: processed experimental video images for molecule that takes on folded configuration
 
 ## System Requirements
 
