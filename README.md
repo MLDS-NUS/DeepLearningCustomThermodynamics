@@ -58,17 +58,17 @@ pip install -r requirements.txt
 
 ### Quick Demo
 
-*(Typical run time: **XYZ**)*
+*(Typical run time: 15 minutes for the default 5000 iterations)*
 
 A quick demo of the code is provided in `./demo/`.
-This demo (**Describe the demo and how it relates to full code**).
+This demo is the copy of the code used to obtain the results presented in the paper, but the number of trajectories provided is limited to 250 and 50 for training and testing, respectively. This, along with the default 5000 iterations (this is user defined) ensures that the code can be run on most personal laptop or desktop computers in a short amount of time. The limited amount of data means that the prediction accuracy will differ from that obtained with full dataset, and the number of iterations chosen by user will also affect the quality of the predictions.
 
 Run the demo by issuing
 ```bash
-python ./demo/**XYZ**.py
+python ./demo/demo_OnsagerNet.py
 ```
-
-Expected output: **XYZ**
+The code will create an output folder, you can choose the name of this folder. If you do not input a name and press enter in the terminal, a default `./demo_outputs/` folder will be created. 
+Expected output in the demo output folder are the model checkpoints.
 
 ### Full Reproduction
 
