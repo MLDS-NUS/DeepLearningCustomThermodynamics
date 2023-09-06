@@ -20,7 +20,7 @@ N_bead=300
 dim_x=900
 N_conf=0
 dic='../data/'
-path_meta = dic+'ex_train610.pkl'
+path_meta = dic+'ex_train.pkl'
 
 #name of path to folders containing weights
 while True:
@@ -269,13 +269,13 @@ print("\nLoad train data")
 loss_trajectory=0
 i=N_conf
 
-path_meta =dic+'ex_train610.pkl'
+path_meta =dic+'ex_train.pkl'
 Z1_trajectory_meta=generate_Z1_1trajectory(path_meta,0,N_tra)
 Z_t0_meta=tf.placeholder(dtype = tf.float32, shape = [None, 1])
 Z_t1_meta=tf.placeholder(dtype = tf.float32, shape = [None, 1])
 
 
-path_meta_tra =dic+'config_train_mean_every610.pkl'
+path_meta_tra =dic+'config_train_mean_every.pkl'
 X_trajectory_meta=generate_data_1trajectory(path_meta_tra,0,N_tra)
 X_t0_meta_all=X_trajectory_meta[0]@pca_1
 X_t1_meta_all=X_trajectory_meta[1]@pca_1 
