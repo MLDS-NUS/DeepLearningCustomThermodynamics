@@ -27,8 +27,6 @@ The code was tested on
 
 *(Typical install time: **XYZ**)*
 
-Install `Tensorflow` and optionally GPU support by following the instructions [here](https://www.tensorflow.org/install).
-
 Create a virtual environment
 ```bash
 virtualenv ~/.venvs/<env_name> -p 3.**XYZ**
@@ -48,7 +46,7 @@ pip install -r requirements.txt
 
 ### Quick Demo
 
-*(Typical install time: **XYZ**)*
+*(Typical run time: **XYZ**)*
 
 A quick demo of the code is provided in `./demo/`.
 This demo (**Describe the demo and how it relates to full code**).
@@ -60,15 +58,13 @@ python ./demo/**XYZ**.py
 
 Expected output: **XYZ**
 
-Expected run-time: **XYZ**
-
 ### Full Reproduction
 
 The full reproduction code for the training of Stochastic OnsagerNet is provided `./reproduction/`.
 
 #### Training
 
-*(Typical install time: **XYZ**)*
+*(Typical run time: **XYZ**)*
 
 Download data files `**XYZ**` from https://doi.org/10.7910/DVN/NRIX7Y and save them into the `./data` directory.
 
@@ -78,7 +74,7 @@ The model checkpoints are saved to `./reproduction/checkpoints/`
 
 #### Inference
 
-*(Typical install time: **XYZ**)*
+*(Typical run time: **XYZ**)*
 
 To produce main results presented in the paper, run the Jupyter notebook `./reproduction/**XYZ**.ipynb`.
 
