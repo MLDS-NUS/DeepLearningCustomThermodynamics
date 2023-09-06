@@ -53,14 +53,9 @@ Install required python packages
 ```bash
 pip install -r requirements.txt
 ```
-## Data
-### Simulation data
-Download all data files from the `Simulation/` folder in https://doi.org/10.7910/DVN/NRIX7Y and save them into the `./data` directory.
-
-### Experimental data
-Download data files `**XYZ**` from https://doi.org/10.7910/DVN/NRIX7Y and save them into the `./data/experiments` directory.
 
 ## Code
+Before running the codes, ensure all the datasets are downloaded from https://doi.org/10.7910/DVN/NRIX7Y and save them into the `./data` directory.
 
 ### Quick Demo
 
