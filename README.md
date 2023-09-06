@@ -22,6 +22,10 @@ Description of the data contents
 - `Dumbbell.png`: processed experimental video images for molecule that takes on dumbbell configuration
 - `Folded.tif`: raw experimental video images for molecule that takes on folded configuration
 - `Folded.png`: processed experimental video images for molecule that takes on folded configuration
+- `config_coord.pkl`: high-dimensional data for experimental images of molecules in stretched configurations from literature
+- `X_low1.txt`: low-dimensional data for experimental images of molecules in stretched configurations from Soh et al. (2023)
+- `X_low2.txt`: low-dimensional data for experimental images of molecules in stretched configurations from Soh et al. (2018)
+
 
 ## System Requirements
 
