@@ -80,7 +80,7 @@ The full reproduction code for the training of Stochastic OnsagerNet is provided
 
 Download data files `**XYZ**` from https://doi.org/10.7910/DVN/NRIX7Y and save them into the `./data` directory.
 
-Train the model by running the Jupyter notebook `/reproduction/**XYZ**.ipynb`
+Train the model by running the Jupyter notebook `/reproduction/OnsagerNet.ipynb`
 
 The model checkpoints are saved to `./reproduction/checkpoints/`
 
