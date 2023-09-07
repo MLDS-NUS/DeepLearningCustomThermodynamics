@@ -33,11 +33,10 @@ The code was tested on
 - Ubuntu version 20.04
 - Python version 3.8
 - Tensorflow version 2.9.1 with tensorflow.compat.v1 as tf and tf.disable_v2_behavior()
-- CUDA version **XYZ**
 
 ## Installation Instructions
 
-*(Typical install time: **XYZ**)*
+*(Typical install time: <5 minutes)*
 
 Create a virtual environment
 ```bash
@@ -68,7 +67,7 @@ Run the demo by issuing
 ```bash
 python ./demo/demo_OnsagerNet.py
 ```
-The code will create an output folder, you can choose the name of this folder. If you do not input a name and press enter in the terminal, a default `./demo_outputs/` folder will be created. 
+The code will create an output folder, you can choose the name of this folder. If you do not input a name and press enter in the terminal, a default `./demo_outputs/` folder will be created.
 Expected output in the demo output folder are the model checkpoints.
 
 ### Full Reproduction
