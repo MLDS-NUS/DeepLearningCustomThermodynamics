@@ -76,7 +76,7 @@ The full reproduction code for the training of Stochastic OnsagerNet is provided
 
 #### Training
 
-*(Typical run time: **XYZ**)*
+*(Typical run time: about 4 hours)*
 
 Train the model by running the Jupyter notebook `/reproduction/OnsagerNet.ipynb`
 
@@ -84,8 +84,16 @@ The model checkpoints are saved to `./reproduction/checkpoints/`
 
 #### Inference
 
-*(Typical run time: **XYZ**)*
+*(Typical run time: about 10 minites)*
 
-To produce main results presented in the paper, run the Jupyter notebook `./reproduction/**XYZ**.ipynb`.
+To produce main results presented in the paper
+ 1. prediction of fast: run the Jupyter notebook './reproduction/prediction/predict_fast.ipynb'
+    prediction of middle: run the Jupyter notebook './reproduction/prediction/predict_middle.ipynb'
+    prediction of slow: run the Jupyter notebook './reproduction/prediction/predict_slow.ipynb'
+2. physical meaning: run the Jupyter notebook './reproduction/physical meaning/physical_meaning.ipynb'
+3. learned potential energy landscape
+   projected onto Z1-Z2: run the Jupyter notebook './reproduction/potential/potential_Z1Z2.ipynb'
+   projected onto Z1-Z3: run the Jupyter notebook './reproduction/potential/potential_Z1Z3.ipynb'
+   projected onto Z2-Z3: run the Jupyter notebook './reproduction/potential/potential_Z2Z3.ipynb'
 
 For reproducibility, the default loads pre-trained checkpoints in `./reproduction/saved_checkpoints/`. Alternatvely, you may load your trained checkpoints in `./reproduction/checkpoints/`, which may result in slight statistical variations in the results.
