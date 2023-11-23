@@ -1,8 +1,8 @@
 # Code for *Constructing Custom Thermodynamics Using Deep Learning*
 
-Code for reviewers of manuscript "Constructing Custom Thermodynamics Using Deep Learning".
+Code for reproduction of results in manuscript "Constructing Custom Thermodynamics Using Deep Learning".
 
-*Note: This repository contains code to reproduce the construction of thermodynamic coordinates and training the stochastic OnsagerNet as presented in the paper. Note that this project was started during Tensorflow 1.XX's maintainence timeframe but we are in the process of migrating it into an updated implementation in Tensorflow 2.XX. The current implementation is for review purposes only, and we will release the more user-friendly Tensorflow 2 version (currently work in progress) for easy adaptation to general problems upon publication.*
+*Note: This repository contains code to reproduce the construction of thermodynamic coordinates and training the stochastic OnsagerNet as presented in the paper. Note that this project was started during Tensorflow 1.XX's maintainence timeframe but we are in the process of migrating it into an updated implementation in a more modern ML framework. The current implementation is for reproduction purposes only, and we will release the more user-friendly version (currently work in progress) for easy adaptation to general problems soon. Watch this space!*
 
 ## Datasets
 
