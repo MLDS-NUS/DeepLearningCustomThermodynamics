@@ -1,8 +1,10 @@
 # Code for *Constructing Custom Thermodynamics Using Deep Learning*
 
-Code for reproduction of results in manuscript "Constructing Custom Thermodynamics Using Deep Learning".
+***Note: a more modern implementation (in jax) for more general usage is now online at https://github.com/MLDS-NUS/onsagernet-jax. This current repository is purely for archival purposes.***
 
-*Note: This repository contains code to reproduce the construction of thermodynamic coordinates and training the stochastic OnsagerNet as presented in the paper. Note that this project was started during Tensorflow 1.XX's maintainence timeframe but we are in the process of migrating it into an updated implementation in a more modern ML framework. The current implementation is for reproduction purposes only, and we will release the more user-friendly version (currently work in progress) for easy adaptation to general problems soon. Watch this space!*
+---
+
+Code for reproduction of results in manuscript "Constructing Custom Thermodynamics Using Deep Learning".
 
 ## Datasets
 
